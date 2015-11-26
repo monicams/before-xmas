@@ -10,9 +10,9 @@ The time is VERY limited, I'm not developing during the day - work constraints, 
 
 Considering the limited time to actually 'do' something, I decided to pencil down a few ideas so I can have a direction on the days to come.
 
-I thought about icons of things (Christmassy or not) that I always wanted to do and never got around to do it.
-Also some Christmas artwork, like cards or e-cards.
-Then I thought would be nice to have a 'brainstorm' session with my own daughter, and try to get 24 toy ideas that she would like to get on Christmas. Although this could back-fire and I might create expectations for all these toys, I think would be fun exercise.
-Also thought about linking this project with other ones I want to do, but might be way tooo confusing.
+- I thought about icons of things (Christmassy or not) that I always wanted to do and never got around to do it.
+- Also some Christmas artwork, like cards or e-cards.
+- Then I thought would be nice to have a 'brainstorm' session with my own daughter, and try to get 24 toy ideas that she would like to get on Christmas. Although this could back-fire and I might create expectations for all these toys, I think would be fun exercise.
+- Also thought about linking this project with other ones I want to do, but might be way tooo confusing.
 
 So, watch this space, Day 1 is coming soon... and I plan to fill the "advent windows" with something nice each day.
