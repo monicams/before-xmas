@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Day 1 - Thumbnail Grid with Expanding Preview</title>
+		<meta name="description" content="Thumbnail Grid with Expanding Preview" />
+		<meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
+		<meta name="author" content="Monica Messaggi Kaya - based on Codrops article on thumbnail grid" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<header class="clearfix">
+				<h1>24 Days Before Christmas <span>24 little things before Christmas, an 'advent' experiment</span></h1>	
+			</header>
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+					<li>
+						<a href="http://monicams.github.io/before-xmas/day1" data-largesrc="images/arrow.jpg" data-title="Arrow" data-description="<h2>Arrow - Day 1 </h2> 
+						<p>For <strong>Day 1</strong> I decided that would be nice to make a placeholder for all the 24 days of my Before-Xmas project. Tomorrow I will re-organise the site on github to reflect this main page, plus something else on Day 2.</p>
+						<p>It is not all from scratch, the lovely watercolours are from PixelBuddha and the majority of code was an example from Codrops. </p>">
+							<img src="images/thumbs/arrow-thumb.jpg" alt="Arrow"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/bird.jpg" data-title="Bird" data-description="<h2>Bird - Day 2</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/bird-thumb.jpg" alt="Bird"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/deer.jpg" data-title="Deer" data-description="<h2>Deer - Day 3</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/deer-thumb.jpg" alt="Deer"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/honeybee.jpg" data-title="Honeybee" data-description="<h2>Honeybee - Day 4</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/honeybee-thumb.jpg" alt="Honeybee"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/dragonfly.jpg" data-title="Dragonfly" data-description="<h2>Dragonfly - Day 5</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/dragonfly-thumb.jpg" alt="Dragonfly"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/feather.jpg" data-title="Feather" data-description="<h2>Feather - Day 6</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/feather-thumb.jpg" alt="Feather"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/flower.jpg" data-title="Flower" data-description="<h2>Flower - Day 7</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/flower-thumb.jpg" alt="Flower"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/gnome.jpg" data-title="Gnome" data-description="<h2>Gnome - Day 8</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/gnome-thumb.jpg" alt="Gnome"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/heuchera.jpg" data-title="Heuchera" data-description="<h2>Heuchera Leaf - Day 9</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/heuchera-thumb.jpg" alt="Heuchera"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/maple.jpg" data-title="Maple" data-description="<h2>Maple Leaf - Day 10</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/maple-thumb.jpg" alt="Maple"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/rue.jpg" data-title="Rue" data-description="<h2>Rue - Day 11</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/rue-thumb.jpg" alt="Rue"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/squirrel.jpg" data-title="Squirrel" data-description="<h2>Suirrel - Day 12/h2><p>Watch this space...</p>">
+							<img src="images/thumbs/squirrel-thumb.jpg" alt="Squirrel"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/tulip.jpg" data-title="Tulip" data-description="<h2>Tulip - Day 13</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/tulip-thumb.jpg" alt="Tulip"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/wreath.jpg" data-title="Wreath" data-description="<h2>Wreath - Day 14</h2><p>Watch this space...</p>">
+							<img src="images/thumbs/wreath-thumb.jpg" alt="Wreath"/>
+						</a>
+					</li>
+				</ul>
+				<p><a href="http://monicams.github.io/before-xmas/">Before Xmas</a> - and advent adventure by <a href="http://github.com/monicams">@monicams</a></p>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+	</body>
+</html>
