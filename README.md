@@ -6,6 +6,9 @@ I have a plan, to laid-out a few ideas for each day, without much more than that
 
 The time is VERY limited, I'm not developing during the day - work constraints, obviously - but it would be a nice micro-challenge and hopefuly I can showcase a few things I'm interested or learned through the year.
 
+
+##[See it in action!](http://monicams.github.io/before-xmas/)
+
 ##Few ideas
 
 Considering the limited time to actually 'do' something, I decided to pencil down a few ideas so I can have a direction on the days to come.
@@ -16,9 +19,3 @@ Considering the limited time to actually 'do' something, I decided to pencil dow
 - Also thought about linking this project with other ones I want to do, but might be way tooo confusing.
 
 To make nice to *see* all the development I've been committing to the gh-pages branch, and you can see the days as they come along...
-
-##Days
-
-Click away and have fun!
-
-- [Day 1](http://monicams.github.io/before-xmas/day1/)
