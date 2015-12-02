@@ -1,0 +1,19 @@
+.demo-layout-transparent {
+  background: url('../images/deer-bg.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.mdl-navigation{
+	text-transform: uppercase;
+}
+
+.mdl-card {
+	margin:50px;
+	width: 500px;
+}
+
