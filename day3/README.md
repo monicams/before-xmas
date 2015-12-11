@@ -6,4 +6,4 @@ I'm exploring a few things, 3D included, and for Day 3 I explored *Three.js* mak
 
 Learn more about [Three.js](http://threejs.org/). 
 
-[See it in action](http://monicams.github.io/before-xmas/day3/)
+:christmas_tree:[See it in action](http://monicams.github.io/before-xmas/day3/):christmas_tree:

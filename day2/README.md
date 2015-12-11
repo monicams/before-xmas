@@ -6,4 +6,4 @@ Material design has been out for a while, and despite observing its developement
 
 I've used *Day 2* to try a simple "card" in [Material Design Lite](http://www.getmdl.io/started/index.html). 
 
-[See it in action](http://monicams.github.io/before-xmas/day2/)
+:christmas_tree:[See it in action](http://monicams.github.io/before-xmas/day2/):christmas_tree:
