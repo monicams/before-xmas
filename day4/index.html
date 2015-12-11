@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Day 4 - Two.js</title>
+		<meta name="description" content="Two.js vector animation" />
+		<meta name="keywords" content="vector animation" />
+		<meta name="author" content="Monica Messaggi Kaya" />
+		<link rel="shortcut icon" href="favicon.png">
+		<style>
+			body { margin: 0; background-color: #333; color: white;}
+			canvas { width: 100%; height: 100% }
+			h1, p{text-align: center; font-family: 'Open Sans', sans-serif;}
+			.two-container{text-align: center;}
+		</style>
+		<script src="js/two.min.js"></script>
+	</head>
+	<body>
+		<h1>Two.js</h1>
+		<p>A simple Christmas Three with shapes using Two.js</p>
+		<div id="draw">
+       		<div class="two-container"></div>
+    	</div>
+
+		<script>
+			// Make an instance of two and place it on the page.
+			var elem = document.getElementById('draw').children[0];
+			var params = { width: 800, height: 600 };
+			var two = new Two(params).appendTo(elem);
+
+			// two has convenience methods to create shapes.
+
+			// I'm expanding on their example to add a Christmas tree
+			// Started with star, then circles, then rectangle, but had to
+			// rearrange code to reflect stacking order / z-index.
+
+			var rect = two.makeRectangle(150, 500, 50, 100);
+
+			var circle = [];
+			circle[1] = two.makeCircle(150, 230, 50); //first circle 
+
+			circle[2] = two.makeCircle(100, 320, 50); //next line with two circles
+			circle[3] = two.makeCircle(200, 320, 50);
+
+
+			circle[4] = two.makeCircle(50, 410, 50); //next line with 3 circles
+			circle[5] = two.makeCircle(150, 410, 50);
+			circle[6] = two.makeCircle(250, 410, 50);
+
+			var star = two.makeStar(150, 150, 20, 50, 5);
+			star.opacity = 0.75;
+
+
+			// The object returned has many stylable properties:
+			star.fill = 'yellow';
+			star.stroke = 'oranged';
+			star.linewidth = 2;
+
+			for (var i = 1; i <=6; i++) {				
+				circle[i].fill = 'green';
+				circle[i].stroke = 'darkgreen'; // Accepts all valid css color
+				circle[i].linewidth = 3;
+			};
+
+			rect.fill = 'brown';
+			rect.noStroke();
+
+			// Don't forget to tell two to render everything
+			// to the screen
+			two.update();
+		</script>
+
+
+	</body>
+</html>
