@@ -7,7 +7,7 @@ I have a plan, to laid-out a few ideas for each day, without much more than that
 The time is VERY limited, I'm not developing during the day - work constraints, obviously - but it would be a nice micro-challenge and hopefuly I can showcase a few things I'm interested or learned through the year.
 
 
-##[See it in action!](http://monicams.github.io/before-xmas/)
+## :christmas_tree: [See it in action!](http://monicams.github.io/before-xmas/) :christmas_tree:
 
 ##Few ideas
 
