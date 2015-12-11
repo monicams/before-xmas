@@ -9,7 +9,8 @@ The time is VERY limited, I'm not developing during the day - work constraints, 
 
 ## :christmas_tree: [See it in action!](http://monicams.github.io/before-xmas/) :christmas_tree:
 
-##Few ideas
+
+###Few ideas
 
 Considering the limited time to actually 'do' something, I decided to pencil down a few ideas so I can have a direction on the days to come.
 
