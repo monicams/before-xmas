@@ -6,4 +6,4 @@ I always wanted to use this grid for my own project/portfolio view, so I got thi
 
 Beautiful Watercolours are not mine (yet), from PixelBuddha. And original code from Codrops.
 
-:christmas_tree:[See it in action](http://monicams.github.io/before-xmas/day1/):christmas_tree:
+## :christmas_tree: [See it in action](http://monicams.github.io/before-xmas/day1/) :christmas_tree:
